@@ -31,11 +31,7 @@ public class CalculatorTest {
         assertEquals(15, calculator.multiply(5, 3));
     }
     
- /*   @Test
-    public void testDivideByZero() {
-        com.test.calculadora.Calculadora calculator = new com.test.calculadora.Calculadora();
-        assertThrows(IllegalArgumentException.class, () -> calculator.divide(5, 0));
-    }*/
+   
     
     @Test
     public void testDivide() {
